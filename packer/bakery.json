@@ -42,5 +42,14 @@
 	        "sudo mv /tmp/environment /etc/environment"
             ]
         }
+    ],
+  "post-processors": [
+    [
+      {
+        "output": "manifest.json",
+        "strip_path": true,
+        "type": "manifest"
+      }
     ]
+  ]
 }

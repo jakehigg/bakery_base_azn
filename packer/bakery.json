@@ -38,7 +38,6 @@
             "inline":[
                 "sudo yum install puppet -y",
 		"sudo yum install collectd -y",
-		"sudo yum update -y",
 	        "sudo mv /tmp/environment /etc/environment"
             ]
         }
